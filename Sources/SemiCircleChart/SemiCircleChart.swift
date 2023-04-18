@@ -35,8 +35,8 @@ public final class SemiCircleChart: UIView {
         public static let `default`: Self = .init(
             holeSizeMultiplier: 0.5,
             spacing: 4,
-            highlightExpansionSize: 8,
-            horizontalInset: 16,
+            highlightExpansionSize: 16,
+            horizontalInset: 32,
             impactFeedbackEnabled: true
         )
     }
