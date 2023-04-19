@@ -78,11 +78,11 @@ public final class SemiCircleChart: UIView {
         bounds.width / 2 - configuration.horizontalInset + configuration.spacing / 2
     }
         
-    public func setHighlightedIndexDidChangeHandler(_ handler: @escaping (_ index: Int?) -> Void) {
+    public func setHighlightedIndexDidChangeHandler(_ handler: @escaping @MainActor (_ index: Int?) -> Void) {
         highlightedIndexDidChange = handler
     }
     
-    private var highlightedIndexDidChange: ((_ index: Int?) -> Void)?
+    private var highlightedIndexDidChange: (@MainActor (_ index: Int?) -> Void)?
 
     private var highlightedIndex: Int? = nil {
         didSet {
