@@ -2,6 +2,8 @@
 
 `Swift5.7+` `iOS13+`
 
+Drag-Highlighted Semicircular Pie Chart
+
 ## Demo
 
 https://github.com/skw398/SemiCircleChart/assets/114917347/f80b48e2-10c2-42d5-842f-be6dd3c1d556
